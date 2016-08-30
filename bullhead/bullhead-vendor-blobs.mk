@@ -74,8 +74,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/hw/fingerprint.bullhead.so:system/lib/hw/fingerprint.bullhead.so:lge \
     vendor/lge/bullhead/proprietary/lib/hw/gps.msm8992.so:system/lib/hw/gps.msm8992.so:lge \
     vendor/lge/bullhead/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so:lge \
-    vendor/lge/bullhead/proprietary/lib/libdmengine.so:system/lib/libdmengine.so:lge \
-    vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so:lge \
+    vendor/lge/bullhead/proprietary/lib/libdmengine.so:system/priv-app/DMService/lib/arm/libdmengine.so:lge \
+    vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so:lge \
     vendor/lge/bullhead/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so:lge \
     vendor/lge/bullhead/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so:lge \
     vendor/lge/bullhead/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so:lge \
